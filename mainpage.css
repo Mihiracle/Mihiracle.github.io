@@ -1,0 +1,111 @@
+.my-button { 
+	background-image: url('bars.PNG') !important;
+	top: -5px;
+	padding-bottom: 30px; 
+	padding-right: 10px; 
+	display: inline-block;
+	right: -20px; 
+
+}
+
+#button { 
+	right: -40px; 
+	top: 5px;
+	background: #0875cd; 
+}
+
+.my-nav { 
+	position: fixed;
+
+}
+
+.no-scroll { 
+	position: fixed;
+
+}
+
+.my-table { 
+	position: relative;
+	top: 216px;
+	margin: 0px 92px 0px 63px; 
+	height: 482px; 
+	overflow: auto;
+	-webkit-overflow-scrolling: auto;
+
+}
+
+th { 
+	width: 390px; 
+	height: 120px; 
+
+}
+
+td { 	
+	width: 150px; 
+	text-align: middle;
+}
+
+
+.pop-list { 
+	min-width:210px;
+} 
+
+#popupMenu { 
+
+border-radius: 5px; 
+}
+
+
+.ui-popup.ui-overlay-shadow.ui-corner-all.ui-body-a { 
+	padding-top: 0px !important ;  
+	padding-right: 0px !important ; 
+	padding-bottom: 0px !important ;
+	padding-left: 0px !important;
+	font-size: 0px !important; 
+}
+
+#list { 
+	background: rgb(235, 242, 250);
+	height: 100px; 
+}
+
+#list1 { 
+	background: white; 
+	height: 100px;
+}
+
+
+#list:hover { 
+	background: rgb(96, 152, 247);
+
+}
+
+#list1:hover { 
+	background: rgb(96, 152, 247);
+}
+
+
+#words { 
+	color: black;
+	font-style: Arial; 
+	font-size: 1.5em; 
+	font-weight: normal;
+	margin-top: 20px; 
+	text-decoration: none !important; 
+}
+
+#words1 { 
+	color: black;
+	font-style: Arial; 
+	font-size: 1em; 
+	font-weight: normal;
+	margin-top: 20px; 
+	text-decoration: none !important; 
+}
+
+
+#wordsinbuttons { 
+	opacity: 0.0001; 
+	z-index: -1; 
+
+}
