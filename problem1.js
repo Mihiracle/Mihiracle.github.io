@@ -59,8 +59,10 @@ var tries = 2;
       $("#w300").hide(); 
       $("#w309").hide();
       $("#w692").show();
-      $("span.textarea").val(""); 
+      $('span').hide();
       $("span.textarea").text("20");
+      $("span.textarea").show(); 
+      $("span.ui-btn-inner").show(); 
 
     }
 
@@ -110,8 +112,10 @@ var tries = 2;
       $("#w300").hide(); 
       $("#w309").hide();
       $("#w692").show();
-      $("span.textarea").val("");
+      $('span').hide();
       $("span.textarea").text("20");
+      $("span.textarea").show(); 
+      $("span.ui-btn-inner").show(); 
 
     }
 
@@ -214,3 +218,12 @@ var tries = 2;
   }
 
   
+
+
+  $( document ).ready(function() {
+    var title = document.getElementById('title'); 
+    var title2 = document.getElementById('title2'); 
+    var problem = document.getElementById('words'); 
+    var pretextbox = document.getElementById('w123');
+
+  });
