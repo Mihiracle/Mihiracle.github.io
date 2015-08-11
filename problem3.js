@@ -1,4 +1,9 @@
-
+window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
 
   function mainCheck() { 
     if (document.getElementById('radio-choice-v-2c').checked) { 
