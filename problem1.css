@@ -91,7 +91,7 @@ width: 67px;
  cursor: pointer; 
  opacity: 1; 
  left: 40px; 
- top: 720px; 
+ top: 710px; 
  background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
  background-position: -70px -175px;
   transform: scale(1.5, 1.5);
@@ -107,7 +107,7 @@ z-index: 25;
 cursor: pointer; 
 opacity: 1; 
 left: 910px; 
-top: 720px; 
+top: 710px; 
 background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
 background-position: -271px -175px;
   transform: scale(1.5, 1.5);
@@ -425,7 +425,7 @@ li.ui-li.ui-li-static.ui-btn.up-c.ui-first-child.ui-last-child {
 	z-index: 6; cursor: pointer; 
 	position: relative;
 	transform-origin: left top 0px; left: 40px; top: 140px; 
-	transform: scale(0.7, 0.7);
+	transform: scale(0.5, 0.5);
 	background-image: url(http://www.kineticmath.com/books/content/image/solve_equations_containing_negative_coefficients_by_isolating_the_.png); 
 	background-position: 0px 0px;
 }
@@ -433,7 +433,7 @@ li.ui-li.ui-li-static.ui-btn.up-c.ui-first-child.ui-last-child {
 #w498 { 
 	max-width: 74px; max-height: 74px; 
 	z-index: 7; cursor: pointer; 
-	transform: scale(0.7, 0.7);
+	transform: scale(0.5, 0.5);
 	position: relative;
 	left: 109px; top: -10px; opacity: 1; 
 	background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
