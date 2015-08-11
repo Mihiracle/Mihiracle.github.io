@@ -230,13 +230,14 @@ var tries = 2;
 
 
   $( document ).ready(function() {
-    var bool = true; 
+    if(document.URL.indexOf("#")==-1)
+            {
+                // Set the URL to whatever it was plus "#".
+                url = document.URL+"#";
+                location = "#";
 
-    if (bool) { 
-      refresh(); 
-      bool= false; 
-    }
-    else { 
-      return null; 
-    }
+                //Reload the page
+                location.reload(true);
+
+            }
   });
