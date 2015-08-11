@@ -421,7 +421,7 @@ li.ui-li.ui-li-static.ui-btn.up-c.ui-first-child.ui-last-child {
 }
 
 #w497 { 
-	width: 317px; height: 175px; 
+	max-width: 317px; max-height: 175px; 
 	z-index: 6; cursor: pointer; 
 	position: relative;
 	transform-origin: left top 0px; left: 40px; top: 140px; 
@@ -431,7 +431,7 @@ li.ui-li.ui-li-static.ui-btn.up-c.ui-first-child.ui-last-child {
 }
 
 #w498 { 
-	width: 74px; height: 74px; 
+	max-width: 74px; max-height: 74px; 
 	z-index: 7; cursor: pointer; 
 	transform: scale(0.7, 0.7);
 	position: relative;
