@@ -5,6 +5,10 @@ window.onload = function() {
     }
 }
 
+function refresh() { 
+    window.location.reload();
+}
+
 
 
 function logResponse() { 
@@ -226,9 +230,13 @@ var tries = 2;
 
 
   $( document ).ready(function() {
-    var title = document.getElementById('title'); 
-    var title2 = document.getElementById('title2'); 
-    var problem = document.getElementById('words'); 
-    var pretextbox = document.getElementById('w123');
+    var bool = true; 
 
+    if (bool) { 
+      refresh(); 
+      bool= false; 
+    }
+    else { 
+      return null; 
+    }
   });
