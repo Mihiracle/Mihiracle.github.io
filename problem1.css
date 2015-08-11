@@ -215,8 +215,8 @@ input {
 .response { 
 
 	position: fixed !important; 
-	left: 575px !important; 
-	top: 155px !important;
+	left: 575px;
+	top: 155px;
 	width: 450px !important; 
 }
 
