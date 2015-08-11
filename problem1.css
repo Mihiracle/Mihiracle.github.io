@@ -433,7 +433,7 @@ li.ui-li.ui-li-static.ui-btn.up-c.ui-first-child.ui-last-child {
 #w498 { 
 	width: 74px; height: 74px; 
 	z-index: 7; cursor: pointer; 
-	transform: scale(0.5, 0.5);
+	transform: scale(0.7, 0.7);
 	position: relative;
 	left: 109px; top: -10px; opacity: 1; 
 	background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
