@@ -30,7 +30,7 @@
 
 #button { 
 	right: -40px; 
-	top: 5px;
+	top: -5px;
 	background: #0875cd; 
 }
 
@@ -54,7 +54,7 @@ height: 28px;
 z-index: 25; 
 cursor: pointer;
  left: 180px; 
- top: 35px; 
+ top: 15px; 
  background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
  background-position: -1460px -179px;
  transform: scale(2, 2);
@@ -80,7 +80,7 @@ position: fixed;
 	color: white; 
 	width: 609px; 
 	left: 370px; 
-	top: 10px;
+	top: -10px;
 	position: fixed;
 }
 
