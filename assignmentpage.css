@@ -52,7 +52,7 @@ position: relative;
 
 .my-table { 
 	position: relative;
-	top: 129px;
+	top: 127px;
 	margin: 0px 90px 0px 57px; 
 	height: 558px; 
 	overflow: auto;
@@ -68,7 +68,7 @@ th {
 }
 
 td { 	
-	width: 50px; 
+	width: 51px; 
 	text-align: middle !important;
 }
 
