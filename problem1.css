@@ -25,6 +25,9 @@
 	padding-right: 10px; 
 	display: inline-block;
 	right: -20px; 
+	 transform: scale(.75, .75);
+-ms-transform: scale(.75, .75);
+-webkit-transform: scale(.75, .75);
 
 }
 
