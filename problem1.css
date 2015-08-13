@@ -20,7 +20,7 @@
 
 .my-button { 
 	background-image: url('bars.PNG') !important;
-	top: 15px;
+	top: -10px;
 	padding-bottom: 30px; 
 	padding-right: 10px; 
 	display: inline-block;
@@ -54,7 +54,7 @@ height: 28px;
 z-index: 25; 
 cursor: pointer;
  left: 180px; 
- top: 15px; 
+ top: 20px; 
  background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
  background-position: -1460px -179px;
  transform: scale(2, 2);
