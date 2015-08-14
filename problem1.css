@@ -94,13 +94,13 @@ width: 67px;
  cursor: pointer; 
  opacity: 1; 
  left: 40px; 
- top: 625px; 
+ top: 645px; 
  background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
  background-position: -70px -175px;
   transform: scale(1.5, 1.5);
 -ms-transform: scale(1.5, 1.5);
 -webkit-transform: scale(1.5,1.5);
-position: fixed;
+position: relative;
 }
 
 #next { 
@@ -110,13 +110,13 @@ z-index: 25;
 cursor: pointer; 
 opacity: 1; 
 left: 910px; 
-top: 625px; 
+top: 645px; 
 background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
 background-position: -271px -175px;
   transform: scale(1.5, 1.5);
 -ms-transform: scale(1.5, 1.5);
 -webkit-transform: scale(1.5,1.5);
-position: fixed;
+position: relative;
 
 }
 
