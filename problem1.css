@@ -100,7 +100,8 @@ width: 67px;
  z-index: 25; 
  cursor: pointer; 
  opacity: 1; 
- 
+ left: 40px; 
+
  background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
  background-position: -70px -175px;
   transform: scale(1.5, 1.5);
@@ -115,6 +116,7 @@ height: 38px;
 z-index: 25; 
 cursor: pointer; 
 opacity: 1; 
+left: 900px;
 background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
 background-position: -271px -175px;
   transform: scale(1.5, 1.5);
