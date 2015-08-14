@@ -144,13 +144,13 @@ position: fixed;
 	font-family: Arial; 
 	color: rgb(12, 79, 101); 
 	left: 370px; 
-	top: 130px;
+	top: 110px;
 	position: fixed;
 }
 
 #check { 
 	left: 330px; 
-	top: 130px; 
+	top: 110px; 
 	width: 28px; 
 	height: 28px; 
 	background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
