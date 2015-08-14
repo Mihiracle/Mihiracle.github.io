@@ -26,9 +26,9 @@
 
 .my-table { 
 	position: relative;
-	top: 211px;
+	top: 200px;
 	margin: 0px 92px 0px 63px; 
-	height: 470px; 
+	height: 450px; 
 	overflow: auto;
 	-webkit-overflow-scrolling: auto;
 
