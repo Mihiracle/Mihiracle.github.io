@@ -228,7 +228,7 @@ input {
 #w300 { 
 	position: fixed; 
 	left: 302px; 
-	top: 332px; 
+	top: 282px; 
 	width: 670px; 
 	height: 330px; 
 	background-color: white;
@@ -263,7 +263,7 @@ input {
 #w309 { 
 	position: fixed; 
 	width: 131px; height: 19px; 
-	left: 303px; top: 332px; 
+	left: 303px; top: 282px; 
 	background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
 	background-position: -1617px -207px;
 	display: none;  
