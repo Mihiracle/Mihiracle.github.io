@@ -3,6 +3,10 @@ html {
   min-height: 100%;
 }
 
+body { 
+	height: 768px; 
+}
+
 #footer {
     position: fixed;
     bottom: 0;
