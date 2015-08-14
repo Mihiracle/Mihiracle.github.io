@@ -61,7 +61,7 @@ var tries = 2;
       $("span.textarea").text("20");
       $("span.textarea").show(); 
       $("span.ui-btn-inner").show(); 
-      $("script#MathJax-Element-1").show(); 
+      $("span#MathJax-Element-1-Frame.MathJax").show(); 
 
 
     }
