@@ -13,6 +13,7 @@
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
 	<link rel="stylesheet" type="text/css" href="mathquill-0.9.4\mathquill.css">`
 	<script src="mathquill-0.9.4\mathquill.min.js"></script>
+	<script src="http://a.vimeocdn.com/js/froogaloop2.min.js?1b636-1354269188"></script>
 </head>
 
 <body>
@@ -139,6 +140,33 @@
 
 
 		<div id="w283" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 24px; line-height: normal; font-family: Arial; color: rgb(227, 135, 36); cursor: pointer; position: fixed; left: 850px; top: 20px; ">Tries left: 2</div>
+
+		<script>
+					$(document).on("pageinit", function () {
+		        $("#popupVideo iframe")
+		        .attr("width", 0)
+		        .attr("height", 0);
+
+		        $("#popupVideo").on({
+		            popupbeforeposition: function () {
+		                var size = scale(497, 298, 15, 1),
+		                w = size.width,
+		                h = size.height;
+
+		                $("#popupVideo iframe")
+		                .attr("width", w)
+		                .attr("height", h);
+		            },
+		            popupafterclose: function () {
+		                $("#popupVideo iframe")
+		                .attr("width", 0)
+		                .attr("height", 0);
+		                Froogaloop($('#player_1')[0]).api('pause');
+		            }
+		        });
+		    });
+
+		</script>
 
 		<div id="w1478" style="width: 317px; height: 175px; z-index: 6; cursor: pointer; transform-origin: left top 0px; position: fixed; left: 0px; top: 75px; transform: scale(0.75); -ms-transform: scale(.75, .75); -webkit-transform: scale(.75,.75); background-image: url(http://www.kineticmath.com/books/content/image/solve_equations_containing_negative_coefficients_by_isolating_the_.png); background-position: 0px 0px;"></div>
 
