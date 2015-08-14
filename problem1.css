@@ -1,3 +1,8 @@
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 #footer {
     position: fixed;
     bottom: 0;
@@ -100,8 +105,8 @@ width: 67px;
  z-index: 25; 
  cursor: pointer; 
  opacity: 1; 
- left: 40px; 
-
+ left: 60px; 
+ top: 30px; 
  background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
  background-position: -70px -175px;
   transform: scale(1.5, 1.5);
@@ -117,6 +122,7 @@ z-index: 25;
 cursor: pointer; 
 opacity: 1; 
 left: 900px;
+top: -10px; 
 background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
 background-position: -271px -175px;
   transform: scale(1.5, 1.5);
