@@ -55,10 +55,10 @@ position: relative;
 
 .my-table { 
 	position: relative;
-	top: 114px;
+	top: 100px;
 	margin-left: 22px;  ; 
 	margin-right: 30px;  ;  
-	height: 500px; 
+	height: 470px; 
 	overflow: auto;
 	-webkit-overflow-scrolling: auto;
 
