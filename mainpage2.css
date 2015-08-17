@@ -8,24 +8,32 @@
 
 }
 
+#page { 
+	background-image: url("Capture3.PNG") !important;
+}
+
+#tableheader { 
+	position: fixed;
+	left: 90px; 
+	top: 135px; 
+	font-size: 32px; 
+
+}
+
 #logo { 
 background-image: url("logo.PNG");
 height: 70px; 
 width: 165px; 
 position: relative;
-left: 750px; 
+left: 200px; 
 top: 10px; 
-
-}
-
-#tableheader { 
-	display: none; 
 }
 
 #button { 
 	right: -40px; 
-	top: 5px;
+	top: -5px;
 	background: #0875cd; 
+	display: none; 
 }
 
 .my-nav { 
@@ -40,9 +48,10 @@ top: 10px;
 
 .my-table { 
 	position: relative;
-	top: 200px;
-	margin: 0px 92px 0px 63px; 
-	height: 436px; 
+	top: 188px;
+	margin-left: 23px ; 
+	margin-right: 34px ;
+	height: 420px; 
 	overflow: auto;
 	-webkit-overflow-scrolling: auto;
 
@@ -115,6 +124,7 @@ border-radius: 5px;
 	font-weight: normal;
 	margin-top: 20px; 
 	text-decoration: none !important; 
+	display: none; 
 }
 
 
