@@ -3,6 +3,10 @@ html {
   min-height: 100%;
 }
 
+#page { 
+	background-image: url('Capture4.PNG'); background-attachment: relative; background-repeat: no-repeat; background-size: 100% 100%; overflow: hidden;
+}
+
 body { 
 	height: 768px; 
 }

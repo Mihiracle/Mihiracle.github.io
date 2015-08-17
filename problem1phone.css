@@ -200,6 +200,7 @@ position: relative;
 
 #page { 
 	background-image: url("http://mihiracle.github.io/Capture5.PNG") !important; 
+	background-attachment: relative; background-repeat: no-repeat; background-size: 100% 100%; overflow: hidden;
 }
 
 #maincheck { 
