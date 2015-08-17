@@ -260,9 +260,9 @@ input {
 #w300 { 
 	position: fixed; 
 	left: 20px; 
-	top: 150px; 
+	top: 130px; 
 	width: 335px; 
-	height: 450px; 
+	height: 400px; 
 	background-color: white;
 	overflow: auto;
 	-webkit-overflow-scrolling: auto;
