@@ -2,7 +2,7 @@ window.onload = function() {
 
 
 
-var cssPath = "problem1phone.css";
+var cssPath = "problem1.css";
 if (navigator.platform == "iPhone") { 
     cssPath = "problem1phone.css";
 } 
