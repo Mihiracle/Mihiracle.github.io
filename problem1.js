@@ -1,3 +1,27 @@
+window.onload = function() {
+
+
+
+var cssPath = "problem1.css";
+if (navigator.platform == "iPhone") { 
+    cssPath = "problem1phone.css";
+} 
+
+var fileref = document.createElement("link");
+
+fileref.setAttribute("rel", "stylesheet");
+fileref.setAttribute("type", "text/css");
+fileref.setAttribute("href", cssPath);
+
+document.getElementsByTagName("head")[0].appendChild(fileref);
+}
+
+
+
+
+
+
+
 function scale( width, height, padding, border ) {
     var scrWidth = $( window ).width() - 30,
         scrHeight = $( window ).height() - 30,
@@ -43,7 +67,6 @@ $( document ).on( "pageinit", function() {
             $( "#popupVideo iframe" )
                 .attr( "width", 0 )
                 .attr( "height", 0 );
-                Froogaloop($('#player_1')[0]).api('pause');
         }
     });
 });
