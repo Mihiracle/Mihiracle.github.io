@@ -318,6 +318,7 @@ display: none;
 	position: relative;
 	font-size: .8em; 
 	display: none; 
+	width: 315px !important;
 }
 
 .w314 { 
@@ -326,6 +327,7 @@ display: none;
  	position: relative;
 	font-size: .8em; 
 	display: none; 
+	width: 315px !important; 
 }
 
 /* Hidden Objects End */
