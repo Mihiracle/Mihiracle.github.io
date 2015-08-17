@@ -2,7 +2,7 @@ window.onload = function() {
 
 
 
-var cssPath = "mainpage2.css";
+var cssPath = "mainpage.css";
 if (navigator.platform == "iPhone") { 
     cssPath = "mainpage2.css";
 } 
