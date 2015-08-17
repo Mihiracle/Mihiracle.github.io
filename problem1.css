@@ -51,6 +51,7 @@ body {
 	right: -40px; 
 	top: -5px;
 	background: #0875cd; 
+	min-width: 50px; 
 }
 
 .ui-popup.ui-overlay-shadow.ui-corner-all.ui-body-a { 
