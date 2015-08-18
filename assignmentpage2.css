@@ -32,18 +32,14 @@
 
 #w174 { 
 
-width: 89px; 
-height: 28px; 
+width: 167px; 
+height: 49px; 
 z-index: 25; 
 cursor: pointer;
  opacity: 1; 
- left: 250px; 
- top: -35px; 
- background-image: url(http://www.kineticmath.com/books/student/imagesA1/atlas/atlas.png); 
- background-position: -1713px -123px;
- transform: scale(1.2, 1.2);
--ms-transform: scale(1.2, 1.2);
--webkit-transform: scale(1.2, 1.2);
+ left: 160px; 
+ top: -45px; 
+ background-image: url('Homework.png'); 
 position: relative;
 }
 
