@@ -46,16 +46,22 @@ position: fixed;
 }
 
 #maincheck { 
-	width: 45px; height: 45px; z-index: 1; opacity: 1; cursor: pointer; left: 660px; top: 230px; 
+	width: 45px; height: 45px; z-index: 1; opacity: 1; cursor: pointer; left: 30px; top: 230px; 
 	background-image: url('CheckAndHint.png'); 
 	position: fixed;
+		 transform: scale(.75, .75);
+-ms-transform: scale(.75, .75);
+-webkit-transform: scale(.75, .75);
 }
 
 #mainhint { 
 	width: 45px; height: 45px; z-index: 1; cursor: pointer; opacity: 1; 
-	left: 715px; top: 230px; 
+	left: 60px; top: 230px; 
 	background-image: url('CheckAndHint.png'); background-position: 59%; 
 	position: fixed;
+		 transform: scale(.75, .75);
+-ms-transform: scale(.75, .75);
+-webkit-transform: scale(.75, .75);
 
 }
 
@@ -63,8 +69,11 @@ position: fixed;
 	position: fixed;
 	width: 100px; height: 45px; 
 	z-index: 1; cursor: pointer; opacity: 1; 
-	left: 775px; top: 230px; 
+	left: 90px; top: 230px; 
 	background-image: url('Step.png'); 
+		 transform: scale(.75, .75);
+-ms-transform: scale(.75, .75);
+-webkit-transform: scale(.75, .75);
 }
 
 html {
