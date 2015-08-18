@@ -29,5 +29,8 @@
     document.getElementById("check").style.backgroundPosition = "-1741px -151px";
     $("#responseText2").show();
     $("#w692").show();
+    $("#mainsteps").hide(); 
+    $("#maincheck").hide(); 
+    $("#mainhint").hide(); 
 
   }
