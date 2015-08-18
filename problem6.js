@@ -1,5 +1,5 @@
   function mainCheck() { 
-    if (document.getElementById('radio-choice-v-2c').checked && document.getElementById('radio-choice-v-2d').checked) { 
+    if (document.getElementById('checkbox-v-2c').checked && document.getElementById('checkbox-v-2d').checked) { 
         $("#w300").hide(); 
         $("#w309").hide();
         $("#mainsteps").hide(); 
