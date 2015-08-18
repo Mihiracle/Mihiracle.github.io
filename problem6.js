@@ -21,3 +21,13 @@
 
 
   }
+
+
+  function showAnswer() { 
+    document.getElementById('checkbox-v-2c').checked = true; 
+    document.getElementById('checkbox-v-2d').checked = true; 
+    document.getElementById("check").style.backgroundPosition = "-1741px -151px";
+    $("#responseText2").show();
+    $("#w692").show();
+
+  }
