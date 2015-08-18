@@ -25,8 +25,8 @@
 
 
   function showAnswer() { 
-    document.getElementById('checkbox-v-2c').checked = true; 
-    document.getElementById('checkbox-v-2d').checked = true; 
+    $('#checkbox-v-2c').prop('checked', false).checkboxradio('refresh');
+    $('#checkbox-v-2d').prop('checked', false).checkboxradio('refresh');
     document.getElementById("check").style.backgroundPosition = "-1741px -151px";
     $("#responseText3").show();
     $("#w692").show();
