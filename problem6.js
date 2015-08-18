@@ -1,5 +1,7 @@
   function mainCheck() { 
-    if (document.getElementById('checkbox-v-2c').checked && document.getElementById('checkbox-v-2d').checked) { 
+    if (document.getElementById('checkbox-v-2c').checked && document.getElementById('checkbox-v-2d').checked && 
+        !document.getElementById('checkbox-v-2a').checked && !document.getElementById('checkbox-v-2b').checked && 
+        !document.getElementById('checkbox-v-2e').checked) { 
         $("#w300").hide(); 
         $("#w309").hide();
         $("#mainsteps").hide(); 
