@@ -40,9 +40,9 @@ cursor: pointer;
  top: 8px; 
  background-image: url('Assignment.png'); 
 position: fixed;
-	 transform: scale(.75, .75);
--ms-transform: scale(.75, .75);
--webkit-transform: scale(.75, .75);
+	 transform: scale(.85, .85);
+-ms-transform: scale(.85, .85);
+-webkit-transform: scale(.85, .85);
 }
 
 #maincheck { 
