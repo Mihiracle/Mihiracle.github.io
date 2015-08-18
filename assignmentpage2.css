@@ -37,7 +37,7 @@ height: 49px;
 z-index: 25; 
 cursor: pointer;
  opacity: 1; 
- left: 160px; 
+ left: 175px; 
  top: -45px; 
  background-image: url('Homework.png'); 
 position: relative;
@@ -158,6 +158,6 @@ td {
 	color: white; 
 	width: 609px; 
 	left: 130px; 
-	top: -87px;
+	top: -110px;
 	position: relative;
 }
