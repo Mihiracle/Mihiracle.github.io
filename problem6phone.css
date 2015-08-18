@@ -1,3 +1,10 @@
+#checkboxform { 
+	position: fixed; 
+	left: 30px; 
+	top: 270px; 
+
+}
+
 html {
   min-width: 100%;
   min-height: 100%;
