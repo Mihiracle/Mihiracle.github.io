@@ -15,7 +15,7 @@
       $("#responseText3").hide();
     } 
     else  { 
-      document.getElementById("check").style.backgroundPosition = "-695px -181px";
+      document.getElementById("check").style.backgroundPosition = "-1741px -151px";
       $("#responseText2").show();
     }
 
