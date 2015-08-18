@@ -1,7 +1,7 @@
 #checkboxform { 
 	position: fixed; 
-	left: 30px; 
-	top: 270px; 
+	left: 30px !important; 
+	top: 270px !important; 
 
 }
 
