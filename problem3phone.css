@@ -237,6 +237,11 @@ position: relative;
 -webkit-transform: scale(1.5,1.5);
 }
 
+#w692 { 
+	left: 90px !important;
+	top: 410px !important;
+}
+
 input { 
 
 	border: none !important; 
