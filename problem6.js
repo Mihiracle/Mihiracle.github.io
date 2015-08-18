@@ -1,3 +1,23 @@
+window.onload = function() {
+
+
+
+var cssPath = "problem6phone.css";
+if (navigator.platform == "iPhone") { 
+    cssPath = "problem6phone.css";
+} 
+
+var fileref = document.createElement("link");
+
+fileref.setAttribute("rel", "stylesheet");
+fileref.setAttribute("type", "text/css");
+fileref.setAttribute("href", cssPath);
+
+document.getElementsByTagName("head")[0].appendChild(fileref);
+}
+
+
+
   function mainCheck() { 
     if (document.getElementById('checkbox-v-2c').checked && document.getElementById('checkbox-v-2d').checked && 
         !document.getElementById('checkbox-v-2a').checked && !document.getElementById('checkbox-v-2b').checked && 
