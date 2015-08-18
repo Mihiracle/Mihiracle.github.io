@@ -41,6 +41,9 @@ cursor: pointer;
  top: -45px; 
  background-image: url('Homework.png'); 
 position: relative;
+transform: scale(.5, .5);
+-ms-transform: scale(.5, .5);
+-webkit-transform: scale(.5, .5);
 }
 
 
