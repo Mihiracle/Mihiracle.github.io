@@ -37,7 +37,7 @@ height: 49px;
 z-index: 25; 
 cursor: pointer;
  opacity: 1; 
- left: 175px; 
+ left: 185px; 
  top: -45px; 
  background-image: url('Homework.png'); 
 position: relative;
@@ -157,7 +157,7 @@ td {
 	font-family: Arial; 
 	color: white; 
 	width: 609px; 
-	left: 130px; 
+	left: 120px; 
 	top: -110px;
 	position: relative;
 }
