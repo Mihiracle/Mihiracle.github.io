@@ -3,6 +3,20 @@ html {
   min-height: 100%;
 }
 
+#w692 { 
+width: 164px !important; 
+height: 45px !important; 
+cursor: pointer; opacity: 1; 
+position: fixed; 
+left: 665px; top: 230px; 
+display: none; 
+background-image: url("NextProblem.PNG") !important; 
+background-position: 57.1%; 
+
+
+
+}
+
 #page { 
 	background-image: url('Capture4.PNG'); background-attachment: relative; background-repeat: no-repeat; background-size: 100% 100%; overflow: hidden;
 }

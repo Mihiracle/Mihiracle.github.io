@@ -1,3 +1,15 @@
+
+#w692 { 
+width: 164px !important; 
+height: 45px !important; 
+cursor: pointer; opacity: 1; 
+position: fixed !important; 
+left: -30px !important; top: 200px !important; 
+display: none; 
+background-image: url("NextProblem.PNG") !important; 
+background-position: 57.1% !important; 
+}
+
 #back { 
 width: 100px;
  height: 50px; 
