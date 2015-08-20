@@ -1,20 +1,33 @@
 window.onload = function() {
 
+  var cssPath = "problem1.css";
 
 
-var cssPath = "problem1.css";
-if (navigator.platform == "iPhone") { 
-    cssPath = "problem1phone.css";
-} 
+  if (navigator.platform == "iPhone" && Math.abs(window.orientation) === 90) {                   
+            //landscape
+            cssPath = "problem1phoneH.css"; 
+  }else if (navigator.platform == "iPhone" && (window.orientation === 0 || window.orientation === 180) ) {
+            // Portrait
+            cssPath = "problem1phone.css"; 
+  }else { 
+            cssPath = "problem1.css"; 
 
-var fileref = document.createElement("link");
+  } 
 
-fileref.setAttribute("rel", "stylesheet");
-fileref.setAttribute("type", "text/css");
-fileref.setAttribute("href", cssPath);
 
-document.getElementsByTagName("head")[0].appendChild(fileref);
+
+  var fileref = document.createElement("link");
+
+  fileref.setAttribute("rel", "stylesheet");
+  fileref.setAttribute("type", "text/css");
+  fileref.setAttribute("href", cssPath);
+
+  document.getElementsByTagName("head")[0].appendChild(fileref);
+
 }
+
+
+  
 
 
 
